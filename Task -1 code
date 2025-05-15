@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brainwave Matrix Solutions - Internship</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        .task {
+            background-color: #eaf4ff;
+            border-left: 6px solid #007acc;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Brainwave Matrix Solutions</h1>
+        <h2>Internship Program</h2>
+        <p>Welcome! This page is part of the initial setup for my internship at <strong>Brainwave Matrix Solutions</strong>.</p>
+
+        <div class="task">
+            <h3>📌 First Task: Web Application Deployment</h3>
+            <p><strong>Objective:</strong> Deploy a simple web application on a Red Hat Enterprise Linux (RHEL) EC2 instance hosted on AWS.</p>
+            <p><strong>Environment:</strong> RHEL 9, Apache, PHP, AWS EC2</p>
+            <p><strong>Status:</strong> ✅ Completed Successfully</p>
+        </div>
+
+        <p>This deployment includes setting up the EC2 instance, installing and configuring Apache and PHP, deploying this PHP page, and ensuring public accessibility through the instance’s public IP.</p>
+
+        <footer>
+            &copy; <?= date('Y') ?> Shanil Ahmed – Brainwave Matrix Solutions Internship
+        </footer>
+    </div>
+</body>
+</html>
